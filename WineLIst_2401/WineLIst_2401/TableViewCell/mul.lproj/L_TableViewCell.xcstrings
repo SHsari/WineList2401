@@ -1,0 +1,66 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "3id-sw-ayc.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"3id-sw-ayc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "b1N-cN-M7u.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"b1N-cN-M7u\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "IfW-vW-BO8.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Grape\"; ObjectID = \"IfW-vW-BO8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Grape"
+          }
+        }
+      }
+    },
+    "j2K-8z-9Lx.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"j2K-8z-9Lx\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "Ya3-WO-LAw.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Province\"; ObjectID = \"Ya3-WO-LAw\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Province"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

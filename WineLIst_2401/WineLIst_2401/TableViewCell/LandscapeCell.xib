@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad10_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LandscapeCell" rowHeight="53" id="KGk-i7-Jjw" customClass="LandscapeCell" customModule="WineLIst_2401" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1073" height="53"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="1073" height="53"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j2K-8z-9Lx" userLabel="Label_KorName">
+                        <rect key="frame" x="30" y="10" width="315" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="315" id="OJR-fF-uuX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1N-cN-M7u" userLabel="Label_EngName">
+                        <rect key="frame" x="365" y="8" width="418" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Province" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ya3-WO-LAw" userLabel="Label_Province">
+                        <rect key="frame" x="365" y="31" width="418" height="16"/>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3id-sw-ayc" userLabel="Label_Price">
+                        <rect key="frame" x="983" y="10" width="75" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="86b-Di-tOm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grape" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IfW-vW-BO8" userLabel="Label_Grape">
+                        <rect key="frame" x="793" y="18" width="180" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="180" id="FjI-30-faE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.32000000000000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Ya3-WO-LAw" firstAttribute="leading" secondItem="b1N-cN-M7u" secondAttribute="leading" id="1pw-h2-b3E"/>
+                    <constraint firstItem="3id-sw-ayc" firstAttribute="leading" secondItem="IfW-vW-BO8" secondAttribute="trailing" constant="10" id="31I-6K-rwS"/>
+                    <constraint firstItem="IfW-vW-BO8" firstAttribute="leading" secondItem="b1N-cN-M7u" secondAttribute="trailing" constant="10" id="7gP-kQ-TLa"/>
+                    <constraint firstItem="j2K-8z-9Lx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="8Ow-HR-UwH"/>
+                    <constraint firstItem="b1N-cN-M7u" firstAttribute="leading" secondItem="j2K-8z-9Lx" secondAttribute="trailing" constant="20" id="HPF-Px-SIM"/>
+                    <constraint firstItem="b1N-cN-M7u" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="NYh-KH-jaV"/>
+                    <constraint firstItem="IfW-vW-BO8" firstAttribute="leading" secondItem="Ya3-WO-LAw" secondAttribute="trailing" constant="10" id="Wyx-wu-cr9"/>
+                    <constraint firstItem="j2K-8z-9Lx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="d22-bD-cZF"/>
+                    <constraint firstItem="3id-sw-ayc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="gb1-8l-w4N"/>
+                    <constraint firstItem="IfW-vW-BO8" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="k84-uF-Poj"/>
+                    <constraint firstAttribute="trailing" secondItem="3id-sw-ayc" secondAttribute="trailing" constant="15" id="mtp-8d-tAq"/>
+                    <constraint firstItem="Ya3-WO-LAw" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottom" constant="-6" id="pyh-cC-2if"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" systemColor="systemGray5Color"/>
+            <connections>
+                <outlet property="engNameLabel" destination="b1N-cN-M7u" id="2Y0-ap-tKs"/>
+                <outlet property="grapeLabel" destination="IfW-vW-BO8" id="2cN-1n-Hpk"/>
+                <outlet property="korNameLabel" destination="j2K-8z-9Lx" id="14W-E0-VDm"/>
+                <outlet property="priceLabel" destination="3id-sw-ayc" id="Vvp-pw-UsY"/>
+                <outlet property="provinceLabel" destination="Ya3-WO-LAw" id="rX4-3N-TP4"/>
+            </connections>
+            <point key="canvasLocation" x="265.2439024390244" y="65.33898305084746"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGray5Color">
+            <color red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,54 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "401-rV-R9C.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"401-rV-R9C\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "AcK-2Y-nWQ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"AcK-2Y-nWQ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "QCH-ZS-lV7.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Province\"; ObjectID = \"QCH-ZS-lV7\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Province"
+          }
+        }
+      }
+    },
+    "YtQ-CB-raq.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"YtQ-CB-raq\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

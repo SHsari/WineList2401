@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5FC4B552-B807-4B43-9A46-ACD269871C8A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8130A0A-2A42-46F4-BFDB-B5E99532BE0A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxSelection/XlsxTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD89FCF9-FE08-4558-AE07-7FD01F747A36"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxSelection/XlsxTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40623ACC-7072-4043-967B-A5F9BE74B2A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxSelection/XlsxTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2EA5C2F2-1F5C-4D2D-A2D7-4A9FDE8C0FEF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/TableViewCell/WineViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2EA5C2F2-1F5C-4D2D-A2D7-4A9FDE8C0FEF - a1c71ef1397f1fee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.WineViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/TableViewCell/WineViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84">
+               </Location>
+               <Location
+                  uuid = "2EA5C2F2-1F5C-4D2D-A2D7-4A9FDE8C0FEF - a1c71ef1397f1f8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.WineViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/TableViewCell/WineViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "115CE22B-FCBA-43C9-A342-0F36124E127F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/TableViewCell/WineViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "115CE22B-FCBA-43C9-A342-0F36124E127F - a1c71ef1397f1f10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.WineViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/TableViewCell/WineViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86">
+               </Location>
+               <Location
+                  uuid = "115CE22B-FCBA-43C9-A342-0F36124E127F - a1c71ef1397f1fcf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.WineViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/TableViewCell/WineViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53697477-9389-4AD6-87A6-60D920F3085B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/TableViewCell/WineViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "53697477-9389-4AD6-87A6-60D920F3085B - a1c71ef1397f1fee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.WineViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/TableViewCell/WineViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84">
+               </Location>
+               <Location
+                  uuid = "53697477-9389-4AD6-87A6-60D920F3085B - a1c71ef1397f1fee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.WineViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/TableViewCell/WineViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10250BAC-0754-428B-BD68-B2A9DF474238"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/TableViewCell/WineViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "273710FD-8EA3-40B2-8DE5-4901C8E7B1D4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/TableViewCell/WineViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7DA4EDB-8899-43A3-B46D-8C01758DF83B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/TableViewCell/WineViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E7DA4EDB-8899-43A3-B46D-8C01758DF83B - a1c71ef1397f20d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.WineViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/TableViewCell/WineViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92">
+               </Location>
+               <Location
+                  uuid = "E7DA4EDB-8899-43A3-B46D-8C01758DF83B - a1c71ef1397f20d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.WineViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/TableViewCell/WineViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2D0A69C-4FBD-454A-8EF6-397F4C585A77"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/TableViewCell/WineViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C2D0A69C-4FBD-454A-8EF6-397F4C585A77 - a1c71ef1397f2142"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.WineViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/TableViewCell/WineViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104">
+               </Location>
+               <Location
+                  uuid = "C2D0A69C-4FBD-454A-8EF6-397F4C585A77 - a1c71ef1397f2100"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.WineViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/TableViewCell/WineViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7B3E3AA-7119-4DDD-BB1E-1E6016BE35E9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/TableViewCell/WineViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C9CDC54-2501-4F8F-A485-48D377C6F810"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/TableViewCell/WineViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "93A59C44-FD5D-4E49-80EF-FB0CCCC1F2F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/TableViewCell/L_TableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "landscapeCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2AAB01FB-4E52-4E80-BDDC-68614186CBC2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BCB785E-4692-4913-98A4-B8C7FEA2B6D3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxFileSelection/FileSelectionManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7BCB785E-4692-4913-98A4-B8C7FEA2B6D3 - 5d8f25f62da5165b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.FileSelectionManager.init() -&gt; WineLIst_2401.FileSelectionManager"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/FileSelectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44">
+               </Location>
+               <Location
+                  uuid = "7BCB785E-4692-4913-98A4-B8C7FEA2B6D3 - 5d8f25f62da5165b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.FileSelectionManager.init() -&gt; WineLIst_2401.FileSelectionManager"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/FileSelectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44">
+               </Location>
+               <Location
+                  uuid = "7BCB785E-4692-4913-98A4-B8C7FEA2B6D3 - 5d8f25f62da5165b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.FileSelectionManager.init() -&gt; WineLIst_2401.FileSelectionManager"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/FileSelectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44">
+               </Location>
+               <Location
+                  uuid = "7BCB785E-4692-4913-98A4-B8C7FEA2B6D3 - ac05da60e825517d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.URL) -&gt; Swift.Bool in WineLIst_2401.FileSelectionManager.init() -&gt; WineLIst_2401.FileSelectionManager"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/FileSelectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44">
+               </Location>
+               <Location
+                  uuid = "7BCB785E-4692-4913-98A4-B8C7FEA2B6D3 - 5d8f25f62da5165b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.FileSelectionManager.init() -&gt; WineLIst_2401.FileSelectionManager"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/FileSelectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44">
+               </Location>
+               <Location
+                  uuid = "7BCB785E-4692-4913-98A4-B8C7FEA2B6D3 - 5d8f25f62da5165b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.FileSelectionManager.init() -&gt; WineLIst_2401.FileSelectionManager"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/FileSelectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA7965C1-37C3-4DB5-BE89-620C99E8F0FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxFileSelection/FileSelectionManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FA7965C1-37C3-4DB5-BE89-620C99E8F0FD - 5d8f25f62da517a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.FileSelectionManager.init() -&gt; WineLIst_2401.FileSelectionManager"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/FileSelectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49">
+               </Location>
+               <Location
+                  uuid = "FA7965C1-37C3-4DB5-BE89-620C99E8F0FD - 5d8f25f62da517a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.FileSelectionManager.init() -&gt; WineLIst_2401.FileSelectionManager"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/FileSelectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4765E40-1F20-4BD2-87B9-CE452BC28D08"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxFileSelection/FileSelectionManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F4765E40-1F20-4BD2-87B9-CE452BC28D08 - 5d8f25f62da517a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.FileSelectionManager.init() -&gt; WineLIst_2401.FileSelectionManager"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/FileSelectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49">
+               </Location>
+               <Location
+                  uuid = "F4765E40-1F20-4BD2-87B9-CE452BC28D08 - 5d8f25f62da517c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.FileSelectionManager.init() -&gt; WineLIst_2401.FileSelectionManager"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/FileSelectionManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "047450E4-AE9A-4C39-8C3B-884CC61C4FFE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxFileSelection/FileSelectionManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0EEA1A4E-171A-4E73-AA6D-E202AA28279F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0EEA1A4E-171A-4E73-AA6D-E202AA28279F - 3858448808833fec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.XlsxFileViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55">
+               </Location>
+               <Location
+                  uuid = "0EEA1A4E-171A-4E73-AA6D-E202AA28279F - 3858448808833fec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.XlsxFileViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3115D4F-499E-47CE-9FF3-733381313AF7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D3115D4F-499E-47CE-9FF3-733381313AF7 - 58ee555844f956f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.XlsxFileViewController.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63">
+               </Location>
+               <Location
+                  uuid = "D3115D4F-499E-47CE-9FF3-733381313AF7 - 58ee555844f956d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.XlsxFileViewController.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B244A35-15C8-4554-A997-0B680940EDBD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3E54175-4988-4BBB-9812-609EA8E319CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF3A29E3-A8D0-408A-8FB0-2DDD34469E3A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B904591-CB82-420B-A47E-4C2C9B2AA1EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "510B25EF-6A62-4BA5-95C3-DDDA34B23B54"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6634CA04-5C22-4841-81BE-07F3401911ED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "tableView(_:didDeselectRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6634CA04-5C22-4841-81BE-07F3401911ED - 8f4402744f6ca6a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.XlsxFileViewController.tableView(_: __C.UITableView, didDeselectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99">
+               </Location>
+               <Location
+                  uuid = "6634CA04-5C22-4841-81BE-07F3401911ED - 8f4402744f6ca6a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.XlsxFileViewController.tableView(_: __C.UITableView, didDeselectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "665430AC-501A-4A92-B537-F11836592820"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "fileSelection_DirNotReachable(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "665430AC-501A-4A92-B537-F11836592820 - 6ed51a18100fe295"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.XlsxFileViewController.fileSelection_DirNotReachable(WineLIst_2401.FileSelectionManager) -&gt; ()"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107">
+               </Location>
+               <Location
+                  uuid = "665430AC-501A-4A92-B537-F11836592820 - 6ed51a18100fe295"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.XlsxFileViewController.fileSelection_DirNotReachable(WineLIst_2401.FileSelectionManager) -&gt; ()"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2BA0EFF-B51D-4EC9-8FF7-7D3E097A5B48"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D2BA0EFF-B51D-4EC9-8FF7-7D3E097A5B48 - 58ee555844f95674"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.XlsxFileViewController.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67">
+               </Location>
+               <Location
+                  uuid = "D2BA0EFF-B51D-4EC9-8FF7-7D3E097A5B48 - 58ee555844f95674"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WineLIst_2401.XlsxFileViewController.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "WineLIst_2401"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seokhyunsong/Desktop/Xcode%20iOS/WineLIst_2401/WineLIst_2401/XlsxFileSelection/XlsxFileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

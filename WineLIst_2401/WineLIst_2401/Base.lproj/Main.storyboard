@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fqm-Zw-HuX">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Xlsx File View Controller-->
+        <scene sceneID="2aW-fs-g3d">
+            <objects>
+                <viewController storyboardIdentifier="XlsxFileViewController" id="Fqm-Zw-HuX" customClass="XlsxFileViewController" customModule="WineLIst_2401" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MCi-Bx-jhe">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xYc-u1-2lE">
+                                <rect key="frame" x="408" y="120" width="360" height="0.0"/>
+                                <attributedString key="attributedText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="kmS-7K-xvU" userLabel="Xlsx Table View">
+                                <rect key="frame" x="0.0" y="20" width="384" height="1004"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xrY-Sr-GOB">
+                                <rect key="frame" x="0.0" y="20" width="384" height="0.0"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYj-aq-K7Z">
+                                        <rect key="frame" x="218" y="-34.5" width="156" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Use Selected File"/>
+                                        <connections>
+                                            <action selector="selectButton:" destination="Fqm-Zw-HuX" eventType="touchUpInside" id="xZD-tJ-7fD"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="Nk9-Jr-5Qb" propertyAccessControl="none"/>
+                                    <constraint firstAttribute="trailing" secondItem="yYj-aq-K7Z" secondAttribute="trailing" constant="10" id="mcU-U7-BfB"/>
+                                    <constraint firstItem="yYj-aq-K7Z" firstAttribute="bottom" secondItem="xrY-Sr-GOB" secondAttribute="bottom" id="y38-43-aRX"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VtI-5W-scK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kmS-7K-xvU" firstAttribute="leading" secondItem="VtI-5W-scK" secondAttribute="leading" id="1hu-HS-nqf"/>
+                            <constraint firstItem="kmS-7K-xvU" firstAttribute="bottom" secondItem="VtI-5W-scK" secondAttribute="bottom" id="8QP-rY-y8l"/>
+                            <constraint firstItem="xYc-u1-2lE" firstAttribute="top" secondItem="VtI-5W-scK" secondAttribute="top" constant="100" id="AFb-r9-gVX"/>
+                            <constraint firstItem="xrY-Sr-GOB" firstAttribute="trailing" secondItem="VtI-5W-scK" secondAttribute="centerX" id="Mba-hZ-Grt"/>
+                            <constraint firstItem="xYc-u1-2lE" firstAttribute="trailing" secondItem="VtI-5W-scK" secondAttribute="trailing" id="MxR-nk-sJa"/>
+                            <constraint firstItem="xrY-Sr-GOB" firstAttribute="leading" secondItem="VtI-5W-scK" secondAttribute="leading" id="Tgz-oO-KBj"/>
+                            <constraint firstItem="xrY-Sr-GOB" firstAttribute="top" secondItem="VtI-5W-scK" secondAttribute="top" id="e7o-OO-xsI"/>
+                            <constraint firstItem="xYc-u1-2lE" firstAttribute="leading" secondItem="VtI-5W-scK" secondAttribute="centerX" constant="24" id="fiR-OP-zcj"/>
+                            <constraint firstItem="kmS-7K-xvU" firstAttribute="top" secondItem="xrY-Sr-GOB" secondAttribute="bottom" id="icm-Ct-JZb"/>
+                            <constraint firstItem="kmS-7K-xvU" firstAttribute="trailing" secondItem="VtI-5W-scK" secondAttribute="centerX" id="uMb-2B-Sc0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="selectButton" destination="yYj-aq-K7Z" id="NUN-0B-FQK"/>
+                        <outlet property="selectButtonView" destination="xrY-Sr-GOB" id="nN9-wV-oUd"/>
+                        <outlet property="selectButtonViewHeightsConstraints" destination="Nk9-Jr-5Qb" id="Fgp-7p-iP3"/>
+                        <outlet property="xlsxInfoLabel" destination="xYc-u1-2lE" id="PNi-dX-yAp"/>
+                        <outlet property="xlsxTableView" destination="kmS-7K-xvU" id="5Fz-7q-iGo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jdP-i6-ccn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-433" y="-299"/>
+        </scene>
+        <!--Wine View Controller-->
+        <scene sceneID="9Cs-uS-KTh">
+            <objects>
+                <viewController storyboardIdentifier="wineViewController" title="wineViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fpF-d6-UEj" userLabel="Wine View Controller" customClass="WineViewController" customModule="WineLIst_2401" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Byu-2m-Toi">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red Wine" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eES-tQ-yV3" userLabel="title_ENG">
+                                <rect key="frame" x="301.5" y="40" width="165" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="레드 와인" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDE-GV-bXz" userLabel="title_KOR">
+                                <rect key="frame" x="350.5" y="98" width="67" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="EXG-0f-Kug" userLabel="sc">
+                                <rect key="frame" x="10" y="150" width="748" height="32"/>
+                                <segments>
+                                    <segment title="Red Wines"/>
+                                    <segment title="White Wines"/>
+                                    <segment title="Others"/>
+                                </segments>
+                                <connections>
+                                    <action selector="scDidChange:" destination="fpF-d6-UEj" eventType="valueChanged" id="WG6-cR-Rbv"/>
+                                </connections>
+                            </segmentedControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="EwK-A8-fLW" propertyAccessControl="all">
+                                <rect key="frame" x="0.0" y="191" width="768" height="833"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="separatorColor" systemColor="systemGrayColor"/>
+                            </tableView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9E8-tW-Dh8">
+                                <rect key="frame" x="15" y="118.5" width="26.5" height="19.5"/>
+                                <imageReference key="image" image="list.bullet" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                                    <hierarchicalColors>
+                                        <color systemColor="labelColor"/>
+                                        <color systemColor="secondaryLabelColor"/>
+                                        <color systemColor="tertiaryLabelColor"/>
+                                    </hierarchicalColors>
+                                </imageReference>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Bv-o6-q8H">
+                                <rect key="frame" x="46.5" y="115.5" width="79" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="d7Z-Bd-dbZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <menu key="menu" id="NcY-oh-jQq">
+                                    <children>
+                                        <command title="Price" id="5zf-a3-D3V"/>
+                                        <command title="English Name" id="OPM-6K-Wgc"/>
+                                        <command title="Province" id="KJ8-bm-hwQ"/>
+                                        <command title="Grape" discoverabilityTitle="afdsa" id="2Yt-Pp-zo6"/>
+                                    </children>
+                                </menu>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Button">
+                                    <fontDescription key="titleFontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="sortByButton:" destination="fpF-d6-UEj" eventType="touchUpInside" id="NTb-0e-rgs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NwU-kb-Jmq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EwK-A8-fLW" firstAttribute="bottom" secondItem="NwU-kb-Jmq" secondAttribute="bottom" id="2Cg-Xf-j2N"/>
+                            <constraint firstItem="eES-tQ-yV3" firstAttribute="top" secondItem="NwU-kb-Jmq" secondAttribute="top" constant="20" id="91A-bv-ka8"/>
+                            <constraint firstItem="eDE-GV-bXz" firstAttribute="top" secondItem="eES-tQ-yV3" secondAttribute="bottom" constant="10" id="9wO-cm-AYa"/>
+                            <constraint firstItem="0Bv-o6-q8H" firstAttribute="leading" secondItem="9E8-tW-Dh8" secondAttribute="trailing" constant="5" id="CZp-DG-IzN"/>
+                            <constraint firstItem="eES-tQ-yV3" firstAttribute="centerX" secondItem="Byu-2m-Toi" secondAttribute="centerX" id="L0I-Sa-y6y"/>
+                            <constraint firstItem="9E8-tW-Dh8" firstAttribute="leading" secondItem="Byu-2m-Toi" secondAttribute="leading" constant="15" id="Mg8-iB-Hv6"/>
+                            <constraint firstItem="NwU-kb-Jmq" firstAttribute="trailing" secondItem="EXG-0f-Kug" secondAttribute="trailing" constant="10" id="Qg4-of-Djo"/>
+                            <constraint firstItem="NwU-kb-Jmq" firstAttribute="trailing" secondItem="EwK-A8-fLW" secondAttribute="trailing" id="eBM-Vd-339"/>
+                            <constraint firstItem="EXG-0f-Kug" firstAttribute="leading" secondItem="NwU-kb-Jmq" secondAttribute="leading" constant="10" id="fBD-Te-d7N"/>
+                            <constraint firstItem="EXG-0f-Kug" firstAttribute="top" secondItem="eDE-GV-bXz" secondAttribute="bottom" constant="30" id="fYu-dw-yMQ"/>
+                            <constraint firstItem="EwK-A8-fLW" firstAttribute="top" secondItem="EXG-0f-Kug" secondAttribute="bottom" constant="10" id="hEK-sM-pBS"/>
+                            <constraint firstItem="EXG-0f-Kug" firstAttribute="top" secondItem="9E8-tW-Dh8" secondAttribute="bottom" constant="12" id="hbC-75-ukv"/>
+                            <constraint firstItem="eDE-GV-bXz" firstAttribute="centerX" secondItem="Byu-2m-Toi" secondAttribute="centerX" id="iil-tY-Bk7"/>
+                            <constraint firstItem="0Bv-o6-q8H" firstAttribute="centerY" secondItem="9E8-tW-Dh8" secondAttribute="centerY" id="lTQ-CS-4RU"/>
+                            <constraint firstItem="EwK-A8-fLW" firstAttribute="leading" secondItem="NwU-kb-Jmq" secondAttribute="leading" id="xl2-8R-bky"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sortByButton" destination="0Bv-o6-q8H" id="6vD-pK-lGB"/>
+                        <outlet property="tableView" destination="EwK-A8-fLW" id="D6n-cc-9jY"/>
+                        <outlet property="title_ENG" destination="eES-tQ-yV3" id="brB-g0-Auk"/>
+                        <outlet property="title_KOR" destination="eDE-GV-bXz" id="PnE-yq-vWX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OMJ-UE-qql" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="308.59375" y="-299.4140625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="list.bullet" catalog="system" width="128" height="87"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29803921570000003" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

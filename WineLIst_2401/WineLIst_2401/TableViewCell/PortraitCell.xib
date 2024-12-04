@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad10_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PortraitCell" rowHeight="57" id="Moe-GK-1X9" customClass="PortraitCell" customModule="WineLIst_2401" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="816" height="57"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Moe-GK-1X9" id="A9p-mt-8a8">
+                <rect key="frame" x="0.0" y="0.0" width="816" height="57"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23K-lL-Bz2" userLabel="Label_KorName">
+                        <rect key="frame" x="20" y="12" width="315" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="315" id="8P0-4V-9wX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFW-cC-KDV" userLabel="Label_EngName">
+                        <rect key="frame" x="340" y="8" width="376" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Province" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J0P-aG-ZhA" userLabel="Label_Province">
+                        <rect key="frame" x="340" y="35" width="376" height="16"/>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XwL-ec-oHW" userLabel="Label_Price">
+                        <rect key="frame" x="726" y="10" width="75" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="a4w-qC-5Tl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.29999999999999999" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="J0P-aG-ZhA" firstAttribute="bottom" secondItem="A9p-mt-8a8" secondAttribute="bottom" constant="-6" id="3oi-qv-Sr0"/>
+                    <constraint firstItem="XwL-ec-oHW" firstAttribute="top" secondItem="A9p-mt-8a8" secondAttribute="top" constant="10" id="CQN-J7-bb3"/>
+                    <constraint firstItem="23K-lL-Bz2" firstAttribute="top" secondItem="A9p-mt-8a8" secondAttribute="top" constant="12" id="CUf-mJ-Kty"/>
+                    <constraint firstItem="J0P-aG-ZhA" firstAttribute="leading" secondItem="JFW-cC-KDV" secondAttribute="leading" id="GzB-av-7PO"/>
+                    <constraint firstItem="XwL-ec-oHW" firstAttribute="leading" secondItem="J0P-aG-ZhA" secondAttribute="trailing" constant="10" id="HPl-Kz-aui"/>
+                    <constraint firstItem="XwL-ec-oHW" firstAttribute="leading" secondItem="JFW-cC-KDV" secondAttribute="trailing" constant="10" id="Ll5-J3-juL"/>
+                    <constraint firstAttribute="trailing" secondItem="XwL-ec-oHW" secondAttribute="trailing" constant="15" id="Mxr-rT-pHe"/>
+                    <constraint firstItem="JFW-cC-KDV" firstAttribute="leading" secondItem="23K-lL-Bz2" secondAttribute="trailing" constant="5" id="Ui4-Wb-muD"/>
+                    <constraint firstItem="23K-lL-Bz2" firstAttribute="leading" secondItem="A9p-mt-8a8" secondAttribute="leading" constant="20" id="VCZ-Ar-IGj"/>
+                    <constraint firstItem="JFW-cC-KDV" firstAttribute="top" secondItem="A9p-mt-8a8" secondAttribute="top" constant="8" id="xHQ-8t-x7H"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="yfN-8H-QRM"/>
+            <color key="backgroundColor" systemColor="systemGray5Color"/>
+            <connections>
+                <outlet property="engNameLabel" destination="JFW-cC-KDV" id="JdG-Jd-Qx5"/>
+                <outlet property="korNameLabel" destination="23K-lL-Bz2" id="u3e-7G-M9K"/>
+                <outlet property="priceLabel" destination="XwL-ec-oHW" id="oku-hm-JSf"/>
+                <outlet property="provinceLabel" destination="J0P-aG-ZhA" id="Fdo-dd-MQV"/>
+            </connections>
+            <point key="canvasLocation" x="517.55725190839689" y="29.225352112676056"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGray5Color">
+            <color red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
